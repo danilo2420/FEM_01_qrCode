@@ -48,3 +48,26 @@ body {
 
     padding: 0px 5px;
 }
+
+/* Mobile version */
+@media (max-width: 500px){
+    
+    .container {
+        width: 75vw;
+    }
+
+    .container img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #bigText {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    #smallText {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
